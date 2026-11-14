@@ -1,30 +1,49 @@
+using NUnit.Framework;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
+public interface Iinteractable
+{
+    void Interact();
+
+    void OnTouchingPlayer();
+
+    void OnNotTouchingPlayer();
+}
 public class InteractableManager : MonoBehaviour
 {
-
-    public GameObject player;
-
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-       
-    }
-
-    // Update is called once per frame
+    private Iinteractable currentInteractable;
     void Update()
     {
-        
+        if (Keyboard.current.eKey.IsActuated() && currentInteractable != null)
+        {
+            currentInteractable.Interact();
+        }
     }
 
-
-    private void OnTriggerEnter2D(Collider2D player)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Entered Area");
+        Iinteractable interactable = collision.GetComponent<Iinteractable>();   
 
-
+        if(interactable != null)
+        {
+            currentInteractable = interactable;
+            currentInteractable.OnTouchingPlayer();
+        }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        Iinteractable interactable = collision.GetComponent<Iinteractable>();
+
+        if (interactable != null && interactable == currentInteractable)
+        {
+            
+            currentInteractable.OnNotTouchingPlayer();
+            currentInteractable = null;
+        }
+    }
+
 }

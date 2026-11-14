@@ -6,6 +6,8 @@ public class InteractableManager : MonoBehaviour
 
     public GameObject player;
 
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,5 +24,7 @@ public class InteractableManager : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D player)
     {
         Debug.Log("Entered Area");
+
+
     }
 }

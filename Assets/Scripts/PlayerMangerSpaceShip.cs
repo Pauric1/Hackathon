@@ -7,6 +7,7 @@ public class PlayerMangerSpaceShip : MonoBehaviour
 {
 
     public float playerSpeed = 1;
+    public HalbertAudioController playerAudio;
     private Rigidbody2D rb;
     private Vector2 movement;
 
@@ -22,6 +23,7 @@ public class PlayerMangerSpaceShip : MonoBehaviour
         animator = gameObject.GetComponent <Animator>();
 
         playerSR = gameObject.GetComponent<SpriteRenderer>();
+
     }
 
     // Update is called once per frame
@@ -30,6 +32,8 @@ public class PlayerMangerSpaceShip : MonoBehaviour
         if (movement != Vector2.zero)
         {
             animator.SetBool("Walking", true);
+
+            playerAudio.PlayWalkingAudio(true);
 
             if (movement.x < 0)
             {
@@ -49,6 +53,7 @@ public class PlayerMangerSpaceShip : MonoBehaviour
         else
         {
             animator.SetBool("Walking", false);
+            playerAudio.PlayWalkingAudio(false);
         }
 
     }

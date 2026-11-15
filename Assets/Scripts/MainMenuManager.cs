@@ -9,12 +9,6 @@ public class MainMenuManager : MonoBehaviour
         SceneManager.LoadScene(startSceneID);
     }
 
-    public void QuitGame()
-    {
-        Application.Quit();
-        //only closes game in build, not editor
-    }
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

@@ -14,5 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SetLevels/Lv1SpaceShip.unity
     guid: dc6aa2ac48fbd3449b027aa387aca6e4
+  - enabled: 1
+    path: Assets/Scenes/SetLevels/Lv2Moon.unity
+    guid: ccca36ead733616468a8f3f25294b1bc
+  - enabled: 1
+    path: Assets/Scenes/SetLevels/Lv3Mars.unity
+    guid: fbe80954085e1274589f0760da1c7937
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

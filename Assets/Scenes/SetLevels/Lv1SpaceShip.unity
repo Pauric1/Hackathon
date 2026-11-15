@@ -1666,6 +1666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: food
       objectReference: {fileID: 0}
+    - target: {fileID: 2891051816817021843, guid: 7b3f1ccf50d0b064e86866cc01554423, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3108097078699948118, guid: 7b3f1ccf50d0b064e86866cc01554423, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.27744
@@ -1705,6 +1709,10 @@ PrefabInstance:
     - target: {fileID: 3108097078699948118, guid: 7b3f1ccf50d0b064e86866cc01554423, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3216343918553491018, guid: 7b3f1ccf50d0b064e86866cc01554423, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4703149691890512877, guid: 7b3f1ccf50d0b064e86866cc01554423, type: 3}
       propertyPath: foodUI

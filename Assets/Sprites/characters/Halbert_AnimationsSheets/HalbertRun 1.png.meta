@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 9d351f9a87d94c74e86782e327e01768
+guid: 6942727eb25ffd54084b1434139b14c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4668343697532646823
-    second: HalbertIdle_0
+      213: 7292802704850280479
+    second: HalbertRun 1_0
   - first:
-      213: -9195499176106549032
-    second: HalbertIdle_1
+      213: -174282188432812225
+    second: HalbertRun 1_1
   - first:
-      213: -272525308153464515
-    second: HalbertIdle_2
+      213: -4134908418803464051
+    second: HalbertRun 1_2
   - first:
-      213: 6773870891674027967
-    second: HalbertIdle_3
+      213: -6101547489387035418
+    second: HalbertRun 1_3
   - first:
-      213: 731909029515630952
-    second: HalbertIdle_4
+      213: -8298122955163149884
+    second: HalbertRun 1_4
   - first:
-      213: -8526691827264074598
-    second: HalbertIdle_5
+      213: -3673197792508164479
+    second: HalbertRun 1_5
+  - first:
+      213: 7067944253618690353
+    second: HalbertRun 1_6
+  - first:
+      213: -7326638195835523786
+    second: HalbertRun 1_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HalbertIdle_0
+      name: HalbertRun 1_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 8099
-        width: 902
-        height: 1302
+        x: 0
+        y: 225
+        width: 24
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95a022b1426b63fb0800000000000000
-      internalID: -4668343697532646823
+      spriteID: f10eb9fcb6d353560800000000000000
+      internalID: 7292802704850280479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HalbertIdle_1
+      name: HalbertRun 1_1
       rect:
         serializedVersion: 2
-        x: 99
-        y: 6499
-        width: 902
-        height: 1302
+        x: 0
+        y: 192
+        width: 27
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d0a5cb1836036080800000000000000
-      internalID: -9195499176106549032
+      spriteID: f37d8c3e543d49df0800000000000000
+      internalID: -174282188432812225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HalbertIdle_2
+      name: HalbertRun 1_2
       rect:
         serializedVersion: 2
-        x: 49
-        y: 4899
-        width: 1052
-        height: 1252
+        x: 1
+        y: 160
+        width: 27
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3975371dabc73cf0800000000000000
-      internalID: -272525308153464515
+      spriteID: d88827663badd96c0800000000000000
+      internalID: -4134908418803464051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HalbertIdle_3
+      name: HalbertRun 1_3
       rect:
         serializedVersion: 2
-        x: 49
-        y: 3299
-        width: 1052
-        height: 1202
+        x: 2
+        y: 128
+        width: 25
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb7c69cbfaf910e50800000000000000
-      internalID: 6773870891674027967
+      spriteID: 6e4c8e2c2e2f25ba0800000000000000
+      internalID: -6101547489387035418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HalbertIdle_4
+      name: HalbertRun 1_4
       rect:
         serializedVersion: 2
-        x: 49
-        y: 1699
-        width: 1052
-        height: 1152
+        x: 4
+        y: 96
+        width: 19
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8691e207263482a00800000000000000
-      internalID: 731909029515630952
+      spriteID: 4c95cfa332527dc80800000000000000
+      internalID: -8298122955163149884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HalbertIdle_5
+      name: HalbertRun 1_5
       rect:
         serializedVersion: 2
-        x: 149
-        y: 99
-        width: 902
-        height: 1252
+        x: 0
+        y: 64
+        width: 25
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +248,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9cc2be95fa1ba980800000000000000
-      internalID: -8526691827264074598
+      spriteID: 1864dc3b11e260dc0800000000000000
+      internalID: -3673197792508164479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HalbertRun 1_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1399431e9d1661260800000000000000
+      internalID: 7067944253618690353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HalbertRun 1_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d2a6b016d825a90800000000000000
+      internalID: -7326638195835523786
       vertices: []
       indices: 
       edges: []
@@ -262,12 +312,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HalbertIdle_0: -4668343697532646823
-      HalbertIdle_1: -9195499176106549032
-      HalbertIdle_2: -272525308153464515
-      HalbertIdle_3: 6773870891674027967
-      HalbertIdle_4: 731909029515630952
-      HalbertIdle_5: -8526691827264074598
+      HalbertRun 1_0: 7292802704850280479
+      HalbertRun 1_1: -174282188432812225
+      HalbertRun 1_2: -4134908418803464051
+      HalbertRun 1_3: -6101547489387035418
+      HalbertRun 1_4: -8298122955163149884
+      HalbertRun 1_5: -3673197792508164479
+      HalbertRun 1_6: 7067944253618690353
+      HalbertRun 1_7: -7326638195835523786
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

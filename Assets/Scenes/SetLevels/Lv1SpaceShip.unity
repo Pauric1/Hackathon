@@ -17269,9 +17269,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2388323111136213173, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
+      propertyPath: m_Size.x
+      value: 29.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388323111136213173, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
+      propertyPath: m_Size.y
+      value: 39.163246
+      objectReference: {fileID: 0}
+    - target: {fileID: 2388323111136213173, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -4668343697532646823, guid: 9d351f9a87d94c74e86782e327e01768, type: 3}
+    - target: {fileID: 2388323111136213173, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3165338571299960336, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
       propertyPath: m_Name
       value: Halbert SpaceShip
@@ -17282,11 +17294,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5169440946489289102, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.04
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 5169440946489289102, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.04
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5169440946489289102, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 57.5
       objectReference: {fileID: 0}
     - target: {fileID: 5169440946489289102, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17328,13 +17344,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5169440946489289102, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9079916230276032239, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
       propertyPath: m_Size.x
-      value: 29.509731
+      value: 0.55
       objectReference: {fileID: 0}
     - target: {fileID: 9079916230276032239, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
       propertyPath: m_Size.y
-      value: 5.769286
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 9079916230276032239, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
       propertyPath: m_Offset.x
@@ -17342,7 +17362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9079916230276032239, guid: b0fdc636b12359b4d8596af4d758aabc, type: 3}
       propertyPath: m_Offset.y
-      value: -17.927267
+      value: -0.32
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

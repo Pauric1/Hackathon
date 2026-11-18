@@ -1,49 +1,37 @@
 fileFormatVersion: 2
-guid: bcff61de6a6d62f4bbc76123bb2c1923
+guid: 205d7baec9d6aa743b54940bf159b3f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8548641999754994703
-    second: HALBERT_Jump_0
+      213: -2330521529381688154
+    second: HalbertJump_0
   - first:
-      213: 933896236206210082
-    second: HALBERT_Jump_1
+      213: -818835434232618297
+    second: HalbertJump_1
   - first:
-      213: 5737473801462463352
-    second: HALBERT_Jump_2
+      213: 1245239126268957358
+    second: HalbertJump_2
   - first:
-      213: -8480586492426044405
-    second: HALBERT_Jump_3
+      213: -4375122135956770222
+    second: HalbertJump_3
   - first:
-      213: 2066829979392394842
-    second: HALBERT_Jump_4
+      213: 1105839011861967346
+    second: HalbertJump_4
   - first:
-      213: 5557464163616605742
-    second: HALBERT_Jump_5
+      213: 8485215565241914231
+    second: HalbertJump_5
   - first:
-      213: -5138820804042145381
-    second: HALBERT_Jump_6
+      213: 6419811100586399174
+    second: HalbertJump_6
   - first:
-      213: 4072909641802844643
-    second: HALBERT_Jump_7
+      213: 8962112730869576814
+    second: HalbertJump_7
   - first:
-      213: -3124096223597916531
-    second: HALBERT_Jump_8
+      213: -8885416936470005238
+    second: HalbertJump_8
   - first:
-      213: 787392705390807237
-    second: HALBERT_Jump_9
-  - first:
-      213: -991291985900379956
-    second: HALBERT_Jump_10
-  - first:
-      213: 7917687947923295593
-    second: HALBERT_Jump_11
-  - first:
-      213: 6808880523412605411
-    second: HALBERT_Jump_12
-  - first:
-      213: -5914667165401977414
-    second: HALBERT_Jump_13
+      213: -7547402474948272634
+    second: HalbertJump_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HALBERT_Jump_0
+      name: HalbertJump_0
       rect:
         serializedVersion: 2
-        x: 349
-        y: 14499
-        width: 902
-        height: 1252
+        x: 6
+        y: 289
+        width: 20
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f04a16b2b90e2a670800000000000000
-      internalID: 8548641999754994703
+      spriteID: 6acedc3440358afd0800000000000000
+      internalID: -2330521529381688154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALBERT_Jump_1
+      name: HalbertJump_1
       rect:
         serializedVersion: 2
-        x: 349
-        y: 12899
-        width: 902
-        height: 1202
+        x: 6
+        y: 257
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22c3528cdadd5fc00800000000000000
-      internalID: 933896236206210082
+      spriteID: 7c2ef0dc289e2a4f0800000000000000
+      internalID: -818835434232618297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALBERT_Jump_2
+      name: HalbertJump_2
       rect:
         serializedVersion: 2
-        x: 349
-        y: 11299
-        width: 902
-        height: 1102
+        x: 6
+        y: 225
+        width: 20
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87bb744260a9f9f40800000000000000
-      internalID: 5737473801462463352
+      spriteID: ea2dda5436af74110800000000000000
+      internalID: 1245239126268957358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALBERT_Jump_3
+      name: HalbertJump_3
       rect:
         serializedVersion: 2
-        x: 199
-        y: 9849
-        width: 1302
-        height: 1252
+        x: 3
+        y: 196
+        width: 28
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0c38f76487ee4a80800000000000000
-      internalID: -8480586492426044405
+      spriteID: 252395509917843c0800000000000000
+      internalID: -4375122135956770222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALBERT_Jump_4
+      name: HalbertJump_4
       rect:
         serializedVersion: 2
-        x: 249
-        y: 8399
-        width: 1002
-        height: 1152
+        x: 4
+        y: 167
+        width: 22
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a56cfcc6aeadeac10800000000000000
-      internalID: 2066829979392394842
+      spriteID: 2f13dc8e8bab85f00800000000000000
+      internalID: 1105839011861967346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALBERT_Jump_5
+      name: HalbertJump_5
       rect:
         serializedVersion: 2
-        x: 499
-        y: 8149
-        width: 202
-        height: 52
+        x: 4
+        y: 135
+        width: 22
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e26c45c4634102d40800000000000000
-      internalID: 5557464163616605742
+      spriteID: 7731cd8999a81c570800000000000000
+      internalID: 8485215565241914231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALBERT_Jump_6
+      name: HalbertJump_6
       rect:
         serializedVersion: 2
-        x: 249
-        y: 6799
-        width: 1002
-        height: 1152
+        x: 4
+        y: 103
+        width: 22
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +276,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b914ea294bd3fa8b0800000000000000
-      internalID: -5138820804042145381
+      spriteID: 6c5df8fae20c71950800000000000000
+      internalID: 6419811100586399174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALBERT_Jump_7
+      name: HalbertJump_7
       rect:
         serializedVersion: 2
-        x: 499
-        y: 6549
-        width: 202
-        height: 52
+        x: 4
+        y: 71
+        width: 22
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +298,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e90ce17db1e58830800000000000000
-      internalID: 4072909641802844643
+      spriteID: e64bc70ab02df5c70800000000000000
+      internalID: 8962112730869576814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALBERT_Jump_8
+      name: HalbertJump_8
       rect:
         serializedVersion: 2
-        x: 249
-        y: 5199
-        width: 1002
-        height: 1152
+        x: 5
+        y: 34
+        width: 21
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,20 +320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8e8e4c690bf4a4d0800000000000000
-      internalID: -3124096223597916531
+      spriteID: a0a377c8f58a0b480800000000000000
+      internalID: -8885416936470005238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HALBERT_Jump_9
+      name: HalbertJump_9
       rect:
         serializedVersion: 2
-        x: 499
-        y: 4949
-        width: 202
-        height: 52
+        x: 6
+        y: 1
+        width: 20
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,96 +342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c88d876e716dea00800000000000000
-      internalID: 787392705390807237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HALBERT_Jump_10
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 3599
-        width: 1002
-        height: 1152
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc067bfd0393e32f0800000000000000
-      internalID: -991291985900379956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HALBERT_Jump_11
-      rect:
-        serializedVersion: 2
-        x: 499
-        y: 3349
-        width: 202
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 96d0c5a2d3741ed60800000000000000
-      internalID: 7917687947923295593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HALBERT_Jump_12
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 1749
-        width: 952
-        height: 1202
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e98514d2c00e7e50800000000000000
-      internalID: 6808880523412605411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HALBERT_Jump_13
-      rect:
-        serializedVersion: 2
-        x: 349
-        y: 99
-        width: 902
-        height: 1252
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: abd6c81ec81eaeda0800000000000000
-      internalID: -5914667165401977414
+      spriteID: 60eddc7df6d324790800000000000000
+      internalID: -7547402474948272634
       vertices: []
       indices: 
       edges: []
@@ -462,20 +362,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HALBERT_Jump_0: 8548641999754994703
-      HALBERT_Jump_1: 933896236206210082
-      HALBERT_Jump_10: -991291985900379956
-      HALBERT_Jump_11: 7917687947923295593
-      HALBERT_Jump_12: 6808880523412605411
-      HALBERT_Jump_13: -5914667165401977414
-      HALBERT_Jump_2: 5737473801462463352
-      HALBERT_Jump_3: -8480586492426044405
-      HALBERT_Jump_4: 2066829979392394842
-      HALBERT_Jump_5: 5557464163616605742
-      HALBERT_Jump_6: -5138820804042145381
-      HALBERT_Jump_7: 4072909641802844643
-      HALBERT_Jump_8: -3124096223597916531
-      HALBERT_Jump_9: 787392705390807237
+      HalbertJump_0: -2330521529381688154
+      HalbertJump_1: -818835434232618297
+      HalbertJump_2: 1245239126268957358
+      HalbertJump_3: -4375122135956770222
+      HalbertJump_4: 1105839011861967346
+      HalbertJump_5: 8485215565241914231
+      HalbertJump_6: 6419811100586399174
+      HalbertJump_7: 8962112730869576814
+      HalbertJump_8: -8885416936470005238
+      HalbertJump_9: -7547402474948272634
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
